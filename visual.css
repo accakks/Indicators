@@ -1,0 +1,50 @@
+.redlitmus{
+    width:250px;
+    height:75px;
+    background-color: #db6066;
+     box-shadow: 10px 10px 5px grey;
+     cursor: pointer;
+ 
+}
+
+.bluelitmus{
+    width:250px;
+    height:75px;
+    background-color: #608fdb;
+     box-shadow: 10px 10px 5px grey;
+  cursor: pointer;
+     
+}
+
+
+
+ .red{
+
+ }
+
+.red:hover {
+    -webkit-animation-name: turnred; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+   
+}
+
+@-webkit-keyframes turnred{
+    from {background-color: #608fdb;}
+    to {background-color:#db6066;}
+
+ .blu{
+
+ }
+
+.blu:hover {
+	-webkit-animation-name: turnblue; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; 
+    /* Safari 4.0 - 8.0 */
+  
+}
+
+@-webkit-keyframes turnblue{
+    from {background-color: #db6066;}
+    to   {background-color: #608fdb; }
+}
+
